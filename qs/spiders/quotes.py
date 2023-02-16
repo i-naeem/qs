@@ -7,11 +7,7 @@ class QuotesSpider(scrapy.Spider):
     start_urls = ['http://quotes.toscrape.com/']
 
     def parse(self, response):
-        quote_divs = response.xpath('//div[normalize-space(@class)="quote"]')
+        quote_divs = response.css('div.quote')
 
         for quote_div in quote_divs:
-            author = quote_div.css('.author::text').get().strip()
-            quote = quote_div.css('.text::text').get().strip()
-            tags = quote_div.css('.tags .tag::text').getall()
-
-            yield {"author": author, "quote": quote, "tags": tags}
+            yield {"text": quote_div.css('span.text::text').get()}
