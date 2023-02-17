@@ -1,13 +1,11 @@
-text,tags,author
-"“The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.”","aliteracy,books,classic,humor",Jane Austen
-"“A day without sunshine is like, you know, night.”","humor,obvious,simile",Steve Martin
-“Anyone who thinks sitting in church can make you a Christian must also think that sitting in a garage can make you a car.”,"humor,religion",Garrison Keillor
-“Beauty is in the eye of the beholder and it may be necessary from time to time to give a stupid or misinformed beholder a black eye.”,humor,Jim Henson
-“All you need is love. But a little chocolate now and then doesn't hurt.”,"chocolate,food,humor",Charles M. Schulz
-"“Remember, we're madly in love, so it's all right to kiss me anytime you feel like it.”",humor,Suzanne Collins
-“Some people never go crazy. What truly horrible lives they must lead.”,humor,Charles Bukowski
-"“The trouble with having an open mind, of course, is that people will insist on coming along and trying to put things in it.”","humor,open-mind,thinking",Terry Pratchett
-"“Think left and think right and think low and think high. Oh, the thinks you can think up if only you try!”","humor,philosophy",Dr. Seuss
-“The reason I talk to myself is because I’m the only one whose answers I accept.”,"humor,insanity,lies,lying,self-indulgence,truth",George Carlin
-“I am free of all prejudice. I hate everyone equally. ”,"humor,sinister",W.C. Fields
-"“A lady's imagination is very rapid; it jumps from admiration to love, from love to matrimony in a moment.”","humor,love,romantic,women",Jane Austen
+author,tags,text
+Albert Einstein,"change,deep-thoughts,thinking,world",“The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”
+J.K. Rowling,"abilities,choices","“It is our choices, Harry, that show what we truly are, far more than our abilities.”"
+Albert Einstein,"inspirational,life,live,miracle,miracles",“There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.”
+Jane Austen,"aliteracy,books,classic,humor","“The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.”"
+Marilyn Monroe,"be-yourself,inspirational","“Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.”"
+Albert Einstein,"adulthood,success,value",“Try not to become a man of success. Rather become a man of value.”
+André Gide,"life,love",“It is better to be hated for what you are than to be loved for what you are not.”
+Thomas A. Edison,"edison,failure,inspirational,paraphrased","“I have not failed. I've just found 10,000 ways that won't work.”"
+Eleanor Roosevelt,misattributed-eleanor-roosevelt,“A woman is like a tea bag; you never know how strong it is until it's in hot water.”
+Steve Martin,"humor,obvious,simile","“A day without sunshine is like, you know, night.”"

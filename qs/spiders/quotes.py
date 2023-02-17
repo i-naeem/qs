@@ -1,4 +1,5 @@
 import scrapy
+from qs.items import QuoteItem
 
 
 class QuotesSpider(scrapy.Spider):
@@ -17,10 +18,12 @@ class QuotesSpider(scrapy.Spider):
         quote_divs = response.css('div.quote')
 
         for quote_div in quote_divs:
-            yield {"text": quote_div.css('span.text::text').get(),
-                   "tags": quote_div.css('.tag::text').getall(),
-                   "author": quote_div.css('.author::text').get()
-                   }
+            item = QuoteItem()
+            item['text'] = quote_div.css('span.text::text').get()
+            item['tags'] = quote_div.css('.tag::text').getall()
+            item['author'] = quote_div.css('.author::text').get()
+
+            yield item
 
         next_page = response.css('ul.pager .next a::attr(href)').get()
 
